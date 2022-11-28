@@ -5,11 +5,17 @@
 for char in '%20' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':'; do
     for ext in '.php' '.phps' '.phtml' '.php7' '.phar'; do # change here the list of extensions according to back-end technology
       for ext1 in '.jpg' '.png' '.xls' '.pdf' '.gif'; do # change here the list of allowed extensions
-          echo "shell$char$ext$ext1" >> wordlist.txt
-          echo "shell$ext$char$ext1" >> wordlist.txt
-          echo "shell$ext1$char$ext" >> wordlist.txt
-          echo "shell$ext1$ext$char" >> wordlist.txt
-          echo "shell$ext1$ext$char" >> wordlist.txt
+          $char$char$char >> wordlist.txt
+          $char$char$ext >> wordlist.txt
+          $char$ext$ext1 >> wordlist.txt
+          $ext$ext$char >> wordlist.txt
+          $ext$ext1$ext >> wordlist.txt
+          $ext$ext1$ext1 >> wordlist.txt
+          $ext1$char$char >> wordlist.txt
+          $ext1$ext$ext >> wordlist.txt
+          $ext1$ext1$ext1 >> wordlist.txt
       done
     done
 done
+cat wordlist.txt | sort -u > wordlist-for-file-upload.txt
+echo "File saved as wordlist-for-file-upload.txt"
