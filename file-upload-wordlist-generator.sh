@@ -19,4 +19,5 @@ for char in '%20' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':'; do
     done
 done
 cat wordlist.txt | sort -u > wordlist-for-file-upload.txt
+rm wordlist.txt
 echo "Wordlist saved as wordlist-for-file-upload.txt"
