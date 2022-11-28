@@ -1,7 +1,7 @@
 #!/bin/bash
-# This BASH script will perform character injection to auto generate a wordlist and bypass server-side >
-# This script is by-default for PHP based apps. Please change the extensions list in Line #4 according >
-# This script is by-default for apps that allow JPG, PNG, XLS, PDF, GIF files. Please change the allowe>
+# This BASH script will perform character injection to auto generate a wordlist and bypass server-side filters for arbitrary file upload using character injection.
+# This script is by-default for PHP based apps. Please change the extensions list in Line #4 according to technology used by the target
+# This script is by-default for apps that allow JPG, PNG, XLS, PDF, GIF files. Please change the allowed extensions in Line #5 according to the target
 
 for char in '%20' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':'; do
     for ext in '.php' '.phps' '.phtml' '.php7' '.phar'; do # change here the list of extensions according to technology used by the target
