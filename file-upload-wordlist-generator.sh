@@ -4,8 +4,8 @@
 # This script is by-default for apps that allow JPG, PNG, XLS, PDF, GIF files. Please change the allowe>
 
 for char in '%20' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':'; do
-    for ext in '.php' '.phps' '.phtml' '.php7' '.phar'; do # change here the list of extensions accordi>
-      for ext1 in '.jpg' '.png' '.xls' '.pdf' '.gif'; do # change here the list of allowed extensions
+    for ext in '.php' '.phps' '.phtml' '.php7' '.phar'; do # change here the list of extensions according to technology used by the target
+      for ext1 in '.jpg' '.png' '.xls' '.pdf' '.gif'; do # change here the list of allowed extensions by the target
         echo "$ext$char$char" >> wordlist.txt
         echo "$char$char$ext" >> wordlist.txt
         echo "$char$ext$ext1" >> wordlist.txt
