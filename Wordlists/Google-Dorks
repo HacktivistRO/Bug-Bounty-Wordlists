@@ -3,8 +3,9 @@
 - Finding internal server errors: site: rohan-website.com AND (intitle: 500) 
 - Finding sensitive parameters in URL: site: rohan-website.com AND (inurl: “api” OR inurl: “apikey” OR inurl: “session” OR inurl: “apitoken”) 
 - Finding HTTP pages: site: rohan-website.com AND (-inurl: https) 
-- Site: rohan-website.com AND (“mysql error with query” OR “mysqli_connect” OR ” mysqli_query” OR “pdo_mysql”)
-- Site: rohan-website.com AND (“[MICROSOFT][ODBC SQ”] OR “[SQL SERVER]”)
+- For SQL error (debug) pages:
+  - Site: rohan-website.com AND (“mysql error with query” OR “mysqli_connect” OR ” mysqli_query” OR “pdo_mysql”)
+  - Site: rohan-website.com AND (“[MICROSOFT][ODBC SQ”] OR “[SQL SERVER]”)
 - Use robots.txt file to restrict search engines to index sensitive files.
 - External Resources:
   - https://www.exploit-db.com/google-hacking-database
