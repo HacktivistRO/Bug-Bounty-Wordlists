@@ -1,0 +1,118 @@
+*Even though this is what I follow, it is optional that you follow this approach. 
+
+You can find tips for an excellent report at the end of this file.
+
+You should spend a few months on bug hunting and understand how you think and take targets into consideration.
+
+This can (and should be) just be taken as a reference on "How to approach a target."
+
+Here are a few things you can do for the initial kick-start to your hunting:
+
+-> Check if any other vulnerability has already been reported to the target, try to retest it, and see if you can bypass the patch applied.
+
+-> Follow developers on GitHub (or LinkedIn or Twitter) to understand their mindset, and the technologies they master. You are most likely to interact with the technologies the developers are most comfortable with.
+
+-> Check the mobile version/app as well for more features.
+
+-> Visit the application using IP from a different country/region and see for different geo-location-based features
+
+-> On Registration form:
+	-> What info is required? What is stored? Where is the info shown on the account page?
+	-> OAuth? // Enter Exploits in your social media profile info and get (blind) vulnerabilites.
+	-> What characters are allowed? Encode payload within input fields? Client/Server side filtering?
+	-> Signup using @<name-of-org>.com? Extra privileges?
+	-> Look for interesting endpoints in JS files
+	-> Rate limiting attacks on the registration form?
+
+-> On Login form:
+	-> APIs called?
+	-> NULL byte in any field?
+	-> OAuth?
+	-> Same functionality with a mobile app as well?
+
+-> IDOR on Password reset page? Rate limiting? Using APIs?
+
+-> If on any parameter you find any data is being fetched using a URL, try IDOR by changing your user-identified parameter like e-mail, phone, or user ID
+
+-> Updating account:
+	-> CSRF token? 
+	-> Asking for Password when sensitive action performed?
+	-> For URLs -> javascript:alert(0) for XSS
+	-> File upload/download? IDOR?
+	-> payload in public profile?
+
+-> Infrastructure? Subdomain for alpha testing?
+
+-> API documentation available? 
+
+-> If you are using a new version of any API, try v1 if available.
+
+-> Does the application offer premium features? How can you use them for free?
+
+-> Check for micro-services implemented and their security issues
+
+-> Is the Credit card bin working?
+
+-> Demo/test credit card working? 
+
+-> Payment gateway security documentation?
+
+-> Checked source code using Developer tools?
+
+-> Above all steps for all subdomains, files, and folders, mobile version/app
+
+
+Here are some more tips to up-level your bug-hunting game:
+
+-> Join Bug Hunting communities
+
+-> Read public disclosures on Bug Bounty platforms. Subscribe to this YouTube channel: Bug Bounty Reports explained.
+
+-> Subscribe to cybersecurity newsletters like SANS for the latest security updates. 
+
+-> Follow @integriti and @securiti like accounts on Twitter
+
+-> Maintain a notepad/MindMap to note down what you've found, what you tried, what worked, what didn't etc.
+
+-> If any app has a premium version consider purchasing it, as it may get you access to more/unique features
+
+-> Learn more about the security issues related to the version of the framework used. You can also subscribe to the newsletters of the technology and frameworks used to get the latest features and security updates. Try to join their beta program as well; if you find all security issues in one technology version: you will get a few CVEs, and all the websites running on the same technology will be your target for taking the rewards. ;)
+
+-> Follow the organization's official handles on social media to check what new features are coming up.
+
+-> Master specific frameworks/technologies/bugs and have a head start among your competition. Create a local instance and experiment.
+
+-> Change your IP using VPN before starting an attack to prevent your IP from blocking
+
+-> To bypass IP-based restrictions and filters: Use IPv6 instead of IPv4 if the server supports IPv6
+
+-> If you find a bug but no bug bounty program, report it here: https://hackerone.com/disclosure-assistance or https://www.openbugbounty.org/report/ 
+
+-> Analyse links received over: E-Mail and SMS to understand parameter nomenclature.
+
+-> For parameters with numbers as values: Try different numbers (both positive and negative) and characters
+
+-> Understand: how session tokens: generate, validate and expire.
+
+-> Remove security questions and OTPs from the request and check if the request is accepted.
+
+-> HTTP Response tampering can be used to bypass authentication in APIs
+
+-> IDOR + Self-XSS -> Stored XSS
+
+-> Payload for Blind XSS: <script src=rohan-website.com></script>
+
+-> POC Should include:
+		-> User profiles used for testing
+		-> Screenshots of:
+			-> HTTP request and responses, along with highlights of the payloads and interesting responses
+			-> Successful attack payloads
+			-> Set-by-step process to reproduce
+			-> Title of the report should be the impact of the vulnerability:
+				-> For example, for SSRF, the Title should be: Abusing redirect_url to find all internal IP addresses 
+		-> More tips for report writing here:
+			-> https://bughunters.google.com/learn/improving-your-reports/6005260747014144/about-this-section
+			-> https://docs.hackerone.com/hackers/quality-reports.html
+
+-> REMEMBER: Automate recon; not vulnerability assessment
+
