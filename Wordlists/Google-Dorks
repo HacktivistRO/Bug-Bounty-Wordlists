@@ -36,7 +36,7 @@
   - site: ideone.com "rohan-website.com"
   - Combine using: site:pastebin.com | site:jsfiddle.net | site:codebeautify.org | site:codepen.io | site: ideone.com "rohan-website.com"
 - Find Financial Reports of an organization: intext: financial_report | intext: balance_sheet | intext: income statement | intext: sales report | intext: annual report | filetype: pdf OR filetype: xls OR filetype: xlsx "rohan-website
-- Use a robots.txt file to restrict search engines from indexing sensitive files.
+- If you are a developer, use a robots.txt file to restrict search engines from indexing sensitive files.
 - Found these dorks interesting? Learn more about Google Dorks here:
   - https://github.com/Proviesec/google-dorks
   - Google Hacking for Pentesters by Jhonny Long: https://www.blackhat.com/presentations/bh-europe-05/BH_EU_05-Long.pdf
