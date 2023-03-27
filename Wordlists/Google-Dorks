@@ -8,7 +8,7 @@
   - Site: rohan-website.com AND (“[MICROSOFT][ODBC SQ”] OR “[SQL SERVER]”)
 -  Find admin credentials: intext:rohan-website & ext:txt | ext:sql | ext:cnf | ext:config | ext:log & intext:"admin" | intext:"root" | intext:"administrator" & intext:"password" | intext:"root" | intext:"admin" | intext:"administrator" | intext: "dev" | intext: "staging"
 - Find sensitive data and company accounts on file storage: 
-  - Use following dorks:
+  - Use the following dorks:
     - site: dropbox.com/s "rohan-website.com"
     - site: box.com/s "rohan-website.com"
     - site: docs.google.com "rohan-website.com"
@@ -21,13 +21,13 @@
     - site: cryptome.org "rohan-website.com"
   - Combine them using: site:http://dropbox.com/s | site:http://box.com/s | site:http://docs.google.com | site:blob.core.windows.net | site:s3.amazonaws.com | site: drive.google.com | site:googleapis.com | site: dl.dropbox.com | site: onedrive.live.com | site: cryptome.org "rohan-website.com"
   - Add these to find sensitive data: "confidential" "privileged" "not for public release" "restricted"
-- Find WordPress based websites: inurl:/wp-admin/admin-ajax.php
-- Find Drupal based websites: intext:"Powered by" & intext:Drupal & inurl:user
-- Find Joomla based websitessite:*/joomla/login
+- Find WordPress-based websites: inurl:/wp-admin/admin-ajax.php
+- Find Drupal-based websites: intext:"Powered by" & intext:Drupal & inurl:user
+- Find Joomla-based websites: site:*/joomla/login
 - Find parameters for XSS: inurl:q= | inurl:s= | inurl:search= | inurl:query= inurl:& site:rohan-website.com
-- Find parameters for Open Redrirection: inurl:url= | inurl:return= | inurl:next= | inurl:redir= inurl:http site:rohan-website.com
+- Find parameters for Open Redirection: inurl:url= | inurl:return= | inurl:next= | inurl:redir= | inurl:http | inurl:continue= | inurl: goto= site:rohan-website.com
 - Find recently reported security issues and check if they have been fixed: site:openbugbounty.org | site:hackerone.com | site:bugcrowd.com |  inurl:reports intext:"rohan-website.com"
-- Find pages with specific extension and that contain parameter: site:rohan-website ext:php inurl:?
+- Find pages with specific extensions that contain parameter: site:rohan-website ext:php inurl:?
 - Find developers' leftover codes:
   - site:pastebin.com "rohan-website.com"
   - site:jsfiddle.net  "rohan-website.com"
@@ -36,8 +36,7 @@
   - site: ideone.com "rohan-website.com"
   - Combine using: site:pastebin.com | site:jsfiddle.net | site:codebeautify.org | site:codepen.io | site: ideone.com "rohan-website.com"
 - Find Financial Reports of an organization: intext: financial_report | intext: balance_sheet | intext: income statement | intext: sales report | intext: annual report | filetype: pdf OR filetype: xls OR filetype: xlsx "rohan-website
-- Use robots.txt file to restrict search engines to index sensitive files.
-- External Resources:
+- Use a robots.txt file to restrict search engines from indexing sensitive files.
+- Found these dorks interesting? Learn more about Google Dorks here:
   - https://github.com/Proviesec/google-dorks
   - Google Hacking for Pentesters by Jhonny Long: https://www.blackhat.com/presentations/bh-europe-05/BH_EU_05-Long.pdf
-
