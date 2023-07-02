@@ -1,0 +1,80 @@
+Accept-Charset: utf-8
+Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Accept: text/plain
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: no-cache
+Client-IP: 127.0.0.1
+Cluster-Client-IP: 127.0.0.1
+Connection: Upgrade
+Connection: keep-alive
+Content-Length: 348
+Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ==
+Content-Type: application/x-www-form-urlencoded
+Cookie: $Version=1; Skin=new;
+DNT: 1
+Date: Tue, 15 Nov 1994 08:12:31 GMT
+Expect: 100-continue
+Forwarded: for=192.0.2.43, for=198.51.100.17
+Forwarded: for=192.0.2.60;proto=http;by=203.0.113.43
+From: user@example.com
+Front-End-Https: on
+Host: localhost
+Host: localhost:8080
+If-Match: "737060cd8c284d8af7ad3082f209582d"
+If-Match: "im", "not", "dead", "yet"
+If-Match: *
+If-Match: W/"weakmatch"
+If-Modified-Since: Sat, 29 Oct 1994 19:43:31 GMT
+If-None-Match: "737060cd8c284d8af7ad3082f209582d"
+If-None-Match: *
+If-None-Match: W/"weakmatch"
+If-Range: "737060cd8c284d8af7ad3082f209582d"
+If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 GMT
+Max-Forwards: 10
+Origin: http://localhost
+PSU-Accept-Charset: utf-8
+PSU-Accept-Encoding: gzip, deflate
+PSU-Accept-Language: en-US
+PSU-Accept: text/plain
+PSU-Date: 2017-06-08T09:33:55.954+02:00
+PSU-Device-ID: 0adb1290-1817-4b9f-8726-1615bad1e6e1
+PSU-GEO-Location: GEO:52.506931,13.144558
+PSU-HTTP-Method: POST
+PSU-IP-Address: 10.10.10.10
+PSU-IP-Port: 12345
+PSU-Referer: http://en.wikipedia.org/wiki/Main_Page
+PSU-User-Agent: Mozilla
+Pragma: no-cache
+Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Proxy-Connection: keep-alive
+Range: bytes=500-999
+Referer: http://localhost/
+TE: trailers, deflate
+True-Client-IP: 127.0.0.1
+Upgrade: HTTP/2.0
+Upgrade: HTTPS/1.3
+Upgrade: IRC/6.9
+Upgrade: RTA/x11
+Upgrade: websocket
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/21.0
+Via: 1.0 fred, 1.1 example.com (Apache/1.1)
+Warning: 199 Miscellaneous warning
+X-Att-Deviceid: GT-P7320/P7320XXLPG
+X-CSRFToken: DECAFC0FFEEBAD
+X-Correlation-ID: f058ebd6-02f7-4d3f-942e-904344e8cde5
+X-Csrf-Token: DECAFC0FFEEBAD
+X-Do-Not-Track: 1
+X-Forwarded-For: 127.0.0.1
+X-Forwarded-For: client1, proxy1, proxy2
+X-Forwarded-Host: localhost
+X-Forwarded-Host: localhost:8080
+X-Forwarded-Proto: https
+X-HTTP-Method-Override: PUT
+X-ProxyUser-Ip: 127.0.0.1
+X-Request-ID: f058ebd6-02f7-4d3f-942e-904344e8cde5
+X-Requested-With: XMLHttpRequest
+X-UIDH: 31337DEADBEEFCAFE
+X-Wap-Profile: http://wap.samsungmobile.com/uaprof/SGH-I777.xml
+X-XSRF-TOKEN: DECAFC0FFEEBAD
