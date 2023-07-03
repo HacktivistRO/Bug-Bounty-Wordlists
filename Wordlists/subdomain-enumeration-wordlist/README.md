@@ -1,6 +1,6 @@
-# Wordlist for User-Agent Header fuzzing
+# Wordlist for Subdomain Enumeration
 
-This folder contains a compilation of various user-agents values.
+This folder contains a compilation of common subdomain names.
 
 Due to file size restrictions on GitHub, each file cannot be more than 25 MB. The complete wordlist has been split into part files of 25 MB each.
 
@@ -15,7 +15,7 @@ To help you create a wordlist from part files, merge.sh, the script has been sha
    ```shell
    bash merge.sh
    
-### The script will merge all the part files into a single file named user-agents-wordlist.txt in the script's directory.
+### The script will merge all the part files into a single file named subdomains-wordlist.txt in the script's directory.
 
 ### If you wish to remove the part files after the merge, the script will prompt you with the following message:
 
