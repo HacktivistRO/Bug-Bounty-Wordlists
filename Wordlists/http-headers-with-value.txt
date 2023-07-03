@@ -59,6 +59,7 @@ Upgrade: IRC/6.9
 Upgrade: RTA/x11
 Upgrade: websocket
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/21.0
+User-Agent: gws
 Via: 1.0 fred, 1.1 example.com (Apache/1.1)
 Warning: 199 Miscellaneous warning
 X-Att-Deviceid: GT-P7320/P7320XXLPG
