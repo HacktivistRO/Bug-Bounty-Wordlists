@@ -1,6 +1,6 @@
 # Common Crawling Wordlist for Directory Fuzzing
 
-This folder contains a compilation of the most common directory names that can be used for directory bruteforcing.
+This folder contains a compilation of the most common directory names that can be used for directory brute forcing.
 
 Due to file size restrictions on GitHub, each file cannot be more than 25 MB. The complete wordlist has been split into part files of 25 MB each.
 
@@ -15,14 +15,13 @@ To help you create a wordlist from part files, merge.sh, the script has been sha
    ```shell
    bash merge.sh
    
-### The script will merge all the part files into a single file named common_crawling-wordlist.txt in the script's directory.
+### The script will merge all the part files into a single file named directories-wordlist.txt in the script's directory.
 
 ### If you wish to remove the part files after the merge, the script will prompt you with the following message:
 
    ```shell
      Do you want to remove all the part files? [Y,n]
    ```
-
 
 Type Y or y to remove the part files or any other key to keep them.
 
