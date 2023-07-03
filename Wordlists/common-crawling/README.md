@@ -15,7 +15,7 @@ To help you create a wordlist from part files, merge.sh, the script has been sha
    ```shell
    bash merge.sh
    
-### The script will merge all the part files into a single file named directories-wordlist.txt in the script's directory.
+### The script will merge all the part files into a single file named common_directories-wordlist.txt in the script's directory.
 
 ### If you wish to remove the part files after the merge, the script will prompt you with the following message:
 
