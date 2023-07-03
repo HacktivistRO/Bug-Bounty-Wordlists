@@ -3,6 +3,7 @@ A syntax error has occurred
 ADODB.Field error
 ASP.NET is configured to show verbose error messages
 ASP.NET_SessionId
+Access Denied
 Active Server Pages error
 An illegal character has been found in the statement
 An unexpected token "END-OF-STATEMENT" was found
