@@ -10,11 +10,11 @@
 2130706434
 7F000001
 7F000002
-localhos
+localhost
 127.123.123.123
 0x7f.1
 017700000001
-127.0.0.1
+127.0.0.1.nip.io
 localhost
 test.localtest.me
 0x7f.0x0.0x0.0x1
