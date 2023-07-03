@@ -1,5 +1,7 @@
 # Common Passwords Wordlist
 
+This folder contains a compilation of the most common passwords that can be used for brute-forcing, password spraying and other attacks.
+
 Due to file size restrictions on GitHub, each file cannot be more than 25 MB. The complete wordlist has been split into part files of 25 MB each.
 
 To help you create a wordlist from part files, merge.sh, the script has been shared with you. This script allows you to merge multiple part files into a single file to be used for your future reference. 
