@@ -8,7 +8,7 @@ To help you create a wordlist from part files, merge.sh, the script has been sha
 
 ## Usage
 
-1. Place the part-files in the `part-files` folder.
+1. Download this folder.
 2. Open a terminal and navigate to the script's directory.
 3. Run the script using the following command:
 
