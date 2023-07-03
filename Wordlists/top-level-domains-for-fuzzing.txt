@@ -2,6 +2,7 @@
 .dabur
 .kaufen
 .ua
+.gov.in
 .in
 .com
 .net
