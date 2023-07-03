@@ -355,6 +355,7 @@ application/prs.xsf+xml
 application/pskc+xml
 application/pvd+json
 application/qsig
+application/random
 application/raptorfec
 application/rdap+json
 application/rdf+xml
