@@ -4,7 +4,7 @@ This folder contains a compilation of the most used wordlists for fuzzing gather
 
 ## About each wordlist:
 
-#### * Common Crawling:
+#### - Common Crawling:
 This wordlist contains the most common names of files and folders found on web servers. This is an extensive wordlist and contains part files that can be merged. More instructions are in the folder.
 
 #### Common Passwords: 
