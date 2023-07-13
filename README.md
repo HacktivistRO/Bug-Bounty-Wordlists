@@ -1,6 +1,6 @@
 ## Namaste! 
 
-![Logo](https://github.com/HacktivistRO/Bug-Bounty-Wordlists/assets/49992837/f5d57649-7298-482c-bb2b-596197014a7e)
+![Logo](https://github.com/HacktivistRO/Bug-Bounty-Wordlists/assets/49992837/71eb3178-b66c-4981-8da0-229499b61fee)
 
 ![Profile_Views](https://komarev.com/ghpvc/?username=HacktivistRO&style=for-the-badge)
 
