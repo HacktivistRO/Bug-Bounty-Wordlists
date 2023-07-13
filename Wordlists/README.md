@@ -1,3 +1,5 @@
+![Profile_Views](https://komarev.com/ghpvc/?username=HacktivistRO&style=for-the-badge)
+
 # About this repository
 
 This folder contains a compilation of the most used wordlists for fuzzing gathered from various sources available online.
