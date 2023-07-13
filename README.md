@@ -1,5 +1,7 @@
 ## Namaste! 
 
+![Logo](https://github.com/HacktivistRO/Bug-Bounty-Wordlists/assets/49992837/f5d57649-7298-482c-bb2b-596197014a7e)
+
 ![Profile_Views](https://komarev.com/ghpvc/?username=HacktivistRO&style=for-the-badge)
 
 This repository contains some of the most exhaustive wordlists for enumeration, gathered from a lot of wordlists available on the Internet.
