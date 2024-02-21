@@ -13,5 +13,5 @@ Credits go to the respective authors.
 Inspired by [@SecLists](https://github.com/danielmiessler/SecLists)
 
 <p align="center">
-Happy Hacking!:heart:
+Happy Hacking! :heart:
 </p> 
